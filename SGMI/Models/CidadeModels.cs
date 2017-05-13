@@ -11,7 +11,7 @@ namespace SGMI.Models
         [Required(ErrorMessage = "* Obrigatório!")]
         [StringLength(150,
                       ErrorMessage = "O campo {0} tem no máximo {1} e no mínimo {2} caracteres",
-                      MinimumLength = 10
+                      MinimumLength = 5
             )]
         [Display(Name = "Nome")]
         public string Nome { get; set; }
